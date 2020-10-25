@@ -1,0 +1,75 @@
+.box-container {
+  border: 2px dashed black;
+  padding: 10px;
+  /* Answer */
+  overflow: hidden;
+}
+
+.box-item {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin: 10px;
+
+  /* Answer */
+  float: left;
+}
+
+/* Answer */
+.break {
+  clear: left;
+}
+
+ul {
+  background-color: red;
+  text-align: center;
+  padding: 20px;
+}
+
+li {
+  display: inline;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: white;
+}
+
+.gray-box {
+  width: 500px;
+  background-color: lightgray;
+  padding: 5px;
+}
+
+.gray-box h1 {
+  margin: 5px 5px;
+}
+
+.gray-box__content {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0;
+}
+
+.gray-box__column {
+  margin: 5px;
+  padding: 0;
+  height: fit-content;
+}
+
+.gray-box__column h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.gray-box__column p {
+  margin: 0;
+  padding: 0;
+}
+
+.gray-box__column:not(:last-child) {
+  background-color: lightblue;
+  width: 100px;
+}
+
+.header {
+  background-color: yellow;
+}
