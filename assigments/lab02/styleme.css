@@ -1,0 +1,46 @@
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content {
+    width: 100%;
+}
+
+.moods-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.mood-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.mood-item img {
+    width: 12rem;
+    height: 9rem;
+}
+
+.mood-item span {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.validators {
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
+}
+
+@media only screen and (max-width: 1024px) {
+    .validators {
+        display: flex;
+        flex-direction: column;
+        justify-self: flex-end;
+    }
+  }
+  
