@@ -29,6 +29,8 @@ body {
 }
 
 .header {
+  padding: 1rem;
+  justify-content: flex-end;
   background: linear-gradient(
     90deg,
     rgba(0, 13, 36, 1) 0%,
@@ -36,6 +38,25 @@ body {
     rgba(2, 78, 157, 1) 45%,
     rgba(0, 212, 255, 1) 100%
   );
+}
+
+.header a {
+  padding: 0.2rem;
+  min-width: 3rem;
+  height: fit-content;
+  color: white;
+  text-shadow: 1px 1px #000;
+  text-decoration: none;
+  margin-left: 1rem;
+  text-align: center;
+}
+
+.header a:hover {
+  color: white;
+  text-shadow: 1px 1px #000;
+  text-decoration: none;
+  margin-left: 1rem;
+  background-color: rgba(0, 123, 207, 1);
 }
 
 .footer {
