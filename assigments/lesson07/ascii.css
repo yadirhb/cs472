@@ -17,7 +17,7 @@ legend {
   text-align: left;
 }
 article {
-  alignment-adjust: central;
+  align-items: center;
 }
 button {
   width: 47%;
@@ -42,4 +42,23 @@ select {
 #validate {
   right: 0px;
   position: fixed;
+}
+
+#text-area.tiny {
+  font-size: 7pt;
+}
+#text-area.small {
+  font-size: 10pt;
+}
+#text-area.medium {
+  font-size: 12pt;
+}
+#text-area.large {
+  font-size: 16pt;
+}
+#text-area.extra-large {
+  font-size: 24pt;
+}
+#text-area.xxl {
+  font-size: 32pt;
 }
