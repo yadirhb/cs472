@@ -4,12 +4,20 @@ body {
 }
 #maze {
   margin: auto;
-  top: 10vh;
-  left: 40%;
+  top: 15vh;
+  left: 39vw;
   position: absolute;
   background-color: yellow;
   width: 440px;
   height: 230px;
+}
+
+.title {
+  text-align: center;
+}
+
+#status {
+  text-align: center;
 }
 
 .boundary {

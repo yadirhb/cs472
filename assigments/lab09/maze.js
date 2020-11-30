@@ -1,18 +1,20 @@
 let loose = false;
 
 $(function ($) {
+  const status = $("#status");
   const boundaries = $(".boundary");
   $("#start").on("mouseover", function () {
     loose = false;
     boundaries.removeClass("youlose");
+    status.text("");
   });
 
   $("#end").on("mouseover", function () {
     if (loose) {
       boundaries.addClass("youlose");
-      alert("Sorry, you lost. :-[");
+      status.text("Sorry, you lost. :-[");
     } else {
-      alert("You won, :-]");
+      status.text("You won, :-]");
     }
   });
 
