@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#maze {
+  margin: auto;
+  top: 10vh;
+  left: 40%;
+  position: absolute;
+  background-color: yellow;
+  width: 440px;
+  height: 230px;
+}
+
+.boundary {
+  position: absolute;
+  background-color: #eee;
+  height: 50px;
+  width: 100%;
+}
+
+.boundary#boundary1,
+.boundary:nth-child(3) {
+  z-index: 2;
+  width: 120px;
+  height: 130px;
+}
+
+.boundary:nth-child(3) {
+  right: 0;
+}
+
+.boundary:nth-child(5) {
+  left: 170px;
+  width: 100px;
+  height: 80px;
+  top: 100px;
+}
+
+.boundary:nth-child(4) {
+  left: 0;
+  top: 180px;
+}
+
+.youlose {
+  background-color: #ff8888;
+}
+
+#start,
+#end {
+  padding: 10px;
+  font-size: 14pt;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  border: solid 1px #000;
+  margin: 3px;
+}
+
+#start {
+  background-color: #88ff88;
+  position: absolute;
+  top: 130px;
+}
+
+#end {
+  background-color: #8888ff;
+  position: absolute;
+  top: 130px;
+  right: 0;
+}
