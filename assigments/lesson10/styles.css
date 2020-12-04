@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.circle {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  border: solid 1px #ececec;
+}
+
+#circlesPool {
+  flex: 1;
+  background-color: gray;
+}
+
+.not {
+  display: none;
+}
+
+.circle span {
+  color: white;
+  font-weight: bold;
+}
+
+.default {
+  width: 50px;
+  height: 50px;
+  top: 50vh;
+  left: 50vw;
+  background-color: brown;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100vh;
+  width: 100vw;
+}
+
+main nav,
+main nav form {
+  display: flex;
+}
+
+main nav {
+  padding-left: 1rem;
+  background-color: #f8f8f8;
+  align-items: center;
+}
+
+main nav form {
+  border: solid 1px #ececec;
+  height: fit-content;
+  align-items: center;
+  padding: 5px;
+  margin-left: 1rem;
+}
+
+main nav form div {
+  align-items: center;
+  margin: 5px;
+}

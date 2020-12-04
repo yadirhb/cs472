@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- saved from url=(0077)http://mumstudents.org/cs472/2017-03-KL-AS/Homework/2/resources/skeleton.html -->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Lesson 10: Clean Screen</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" media="screen" />
+</head>
+
+<body>
+    <main>
+        <nav>
+            <h2>Lesson 10: Events! (Clean Screen)</h2>
+            <form>
+                <div>
+                    <label>Diameter(px)</label>
+                    <input type="number" required="required" id="inputDiameter" placeholder="50" min="15" max="500" />
+                </div>
+                <div>
+                    <label>Growth Amount(px)</label>
+                    <input type="number" required="required" id="inputGrowthAmount" placeholder="500" min="0"
+                        max="3000" />
+                </div>
+                <div>
+                    <label>Growth rate (ms)</label>
+                    <input type="number" required="required" id="inputGrowthRate" placeholder="250ms" min="0"
+                        max="100000" />
+                </div>
+                <div>
+                    <label>Number of circles</label>
+                    <input type="number" required="required" id="inputAmountOfCircles" value="1" min="0" max="1000" />
+                </div>
+                <button>Start</button>
+            </form>
+        </nav>
+        <section id="circlesPool">
+            <div class="circle default">
+                <span>#</span>
+            </div>
+        </section>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.js"></script>
+    <script id="circleTmpl" type="text/x-jQuery-tmpl">
+        <div class="circle">
+            <span>${label}</span>
+        </div>
+    </script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
