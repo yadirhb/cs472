@@ -1,0 +1,15 @@
+.even {
+  background-color: #f8f8f8;
+}
+
+.required {
+  color: red;
+}
+
+.not {
+  display: none;
+}
+
+.rowHighlight {
+  font-weight: bold;
+}
