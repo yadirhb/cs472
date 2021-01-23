@@ -1,0 +1,27 @@
+<taglib xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xmlns="http://java.sun.com/xml/ns/javaee"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+    <tlib-version>1.0</tlib-version>
+    <uri>/WEB-INF/tlds/custom</uri>
+    <tag>
+        <description>Generates a label</description>
+        <name>Label</name>
+        <tag-class>cs472.miu.tags.AspxLabel</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>foreColor</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>text</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>bold</name>
+            <type>java.lang.Boolean</type>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>
